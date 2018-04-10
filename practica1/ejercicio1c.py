@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 list = []
+
 camp=input("ingrese puerto: ")
 while camp!=0000:
 	if camp!=0000:
@@ -11,6 +12,5 @@ print(list)
 list.sort()
 print(list)
 
-print(list.index(80))
-
-
+if 80 in list:
+	print(list.index(80))
