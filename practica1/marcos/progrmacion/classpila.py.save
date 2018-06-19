@@ -1,0 +1,5 @@
+class pila:
+	def__init__(self):
+		self.elementos=[]
+
+	def push (self,elemento
